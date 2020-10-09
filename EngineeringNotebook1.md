@@ -1,4 +1,4 @@
-# Engineering Notebook Entry #1
+# Engineering Notebook 
 ## Week 10/4 – 10/9
 
 ### Weekly Activities and Progress
