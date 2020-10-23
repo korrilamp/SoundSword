@@ -14,15 +14,17 @@ Additionally, we were able to complete our Risk Assessments and send out a surve
 from a wide variety of consumers/users.
 
 We met as a team on Tuesday 10/20/2020.
-*We looked into the code for the prototype but was unable to run the code without a VR headset
-*We created a Risk Assessment survey to attain data for the project: https://forms.gle/ag1gWkBuniSSi7T48
-*We began to discuss some of the risk factors involved in this product (motion sickness, seizsures)
+
+We looked into the code for the prototype but was unable to run the code without a VR headset
+We created a Risk Assessment survey to attain data for the project: https://forms.gle/ag1gWkBuniSSi7T48
+We began to discuss some of the risk factors involved in this product (motion sickness, seizsures)
 and our need to conduct further research on the risks associated with VR in general.
 
 We had a 1:1 meeting with Ming on Tuesday 10/20/2020.
-*We talked about the progress we have made thus far.
-*Ming gave us some tips when working with many ideas: Narrow it down to what we want.
-*We are right on track (if not ahead)
+
+We talked about the progress we have made thus far.
+Ming gave us some tips when working with many ideas: Narrow it down to what we want.
+We are right on track (if not ahead)
 
 ### Upcoming Challenges (potential blockers)
 We are still awaiting information from our sponsor about either getting access to the Occulus Headsets for
