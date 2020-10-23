@@ -1,5 +1,5 @@
 # Engineering Notebook 
-## Week 10/129 – 10/23
+## Week 10/19 – 10/23
 
 ### Weekly Activities and Progress
 This week looked into the code for the prototype of the project. We also met with professor Intriligator
