@@ -50,4 +50,4 @@ We realize in our program it could be overwhelming for users to see all the laye
 We met 2x this week as a full team and made significant progress!
 
 ### Failures
-We realize in our design ddocument (submitted last week) we could have been more detailed about particular functions and scripts we plan to implement.
+We realize in our design document (submitted last week) we could have been more detailed about particular functions and scripts we plan to implement.
