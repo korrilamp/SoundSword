@@ -9,12 +9,15 @@ At the Tuesday meeting, we walked Prof. Intriligator through our design document
 During and after that meeting, we selected the audio and visual effects to prioritize as a team. Two of the major features are: The ability for the user to select different tracks (sound files) to make them do different things moving around in the virtual environment, and the ability to place a visual element at a particular spatial location. We realize that users should have multiple options for these visual elements (including things like spheres, paths, particle storms, etc).
 
 When we met as a team on Friday, we compiled a list of the audio and visual parameters:
-Audio
+
+AUDIO
+
 - Amplitude
 - Average Frequency
 - Info extracted via Fourier Transforms
 - Layering Mixer Features to Track 
-**   Reverb
+
+-- Reverb
 -- Pitchbend
 -- Gain
 -- Chorus
@@ -23,9 +26,22 @@ Audio
 -- Phaser
 -- Compression
 
-Visual
+VISUAL
+
 - Type
 -- Particle cloud (If cloud, what do we want users to be able to control about it? (speed of particles, amount of particles, density, size, etc.)
+--Solid Shape? (select from set of shapes - sphere, cube, prism, cone, cylinder, torus)
+-- Path (Width of path)
+
+-Permanant vs. Fading
+-- Time of fade
+
+-Color
+--Changing over time(?)
+
+- Position (Map from xyz, or other(?))
+- Opacity
+- Reflective
 ### Upcoming Challenges (potential blockers)
 
 ### Notes on Successes
