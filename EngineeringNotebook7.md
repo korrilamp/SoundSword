@@ -14,7 +14,7 @@ Audio
 - Average Frequency
 - Info extracted via Fourier Transforms
 - Layering Mixer Features to Track 
---   Reverb
+**   Reverb
 -- Pitchbend
 -- Gain
 -- Chorus
