@@ -10,7 +10,7 @@ During and after that meeting, we selected the audio and visual effects to prior
 
 When we met as a team on Friday, we compiled a list of the audio and visual parameters:
 
-####AUDIO
+#### AUDIO
 
 - Amplitude
 - Average Frequency
@@ -26,7 +26,7 @@ When we met as a team on Friday, we compiled a list of the audio and visual para
 -- Phaser
 -- Compression
 
-####VISUAL
+#### VISUAL
 
 - Type
 -- Particle cloud (If cloud, what do we want users to be able to control about it? (speed of particles, amount of particles, density, size, etc.)
