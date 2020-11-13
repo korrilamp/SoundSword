@@ -30,20 +30,24 @@ When we met as a team on Friday, we compiled a list of the audio and visual para
 
 - Type
 -- Particle cloud (If cloud, what do we want users to be able to control about it? (speed of particles, amount of particles, density, size, etc.)
---Solid Shape? (select from set of shapes - sphere, cube, prism, cone, cylinder, torus)
+-- Solid Shape? (select from set of shapes - sphere, cube, prism, cone, cylinder, torus)
 -- Path (Width of path)
 
--Permanant vs. Fading
+- Permanant vs. Fading
 -- Time of fade
 
--Color
---Changing over time(?)
+- Color
+-- Changing over time(?)
 
 - Position (Map from xyz, or other(?))
 - Opacity
 - Reflective
+
 ### Upcoming Challenges (potential blockers)
+We realize in our program it could be overwhelming for users to see all the layers of instantiated content at once during one editing experience, so we realize we will have to mitigate this by creating a UI feature that gives users the power to choose what to show/hide.
 
 ### Notes on Successes
+We met 2x this week as a full team and made significant progress!
 
 ### Failures
+We realize in our design ddocument (submitted last week) we could have been more detailed about particular functions and scripts we plan to implement.
