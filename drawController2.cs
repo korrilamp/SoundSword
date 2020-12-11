@@ -46,15 +46,20 @@ public class drawController : MonoBehaviour
             {
                 if (FirstPressed) //if it is the first time being pressed
                 {
-                    if (IsPlaying) { //if music is playing, pause
-                    	musicTrack.Pause();
-                        if (RecordManager.recordingInitialized) { //if currently recording, pause (not stop) the recording
+                    if (IsPlaying)
+                    { //if music is playing, pause
+                        musicTrack.Pause();
+                        if (RecordManager.recordingInitialized)
+                        { //if currently recording, pause (not stop) the recording
                             RecordManager.recording = false;
                             Debug.Log("PAUSE Music and Recording");
                         }
-                    } else { //if music is paused, play and start drawing
+                    }
+                    else
+                    { //if music is paused, play and start drawing
                         musicTrack.Play();
-                        if (RecordManager.recordingInitialized) { //if currently recording, play the recording
+                        if (RecordManager.recordingInitialized)
+                        { //if currently recording, play the recording
                             RecordManager.recording = true;
                             if (RecordManager.waitingToRecord)
                             { //if recording has not been initiated, create new recording array
@@ -62,7 +67,8 @@ public class drawController : MonoBehaviour
                                 RecordManager.waitingToRecord = false;
                                 Debug.Log("INITIATE Recording");
                             }
-                            else {
+                            else
+                            {
                                 Debug.Log("RESUME Music and Recording");
                             }
                         }
@@ -72,12 +78,13 @@ public class drawController : MonoBehaviour
                     IsPlaying = !IsPlaying;
                 }
 
-            	//during press and music is playing
-                else if (!FirstPressed && IsPlaying) {
-                	drawDuring();
+                //during press and music is playing
+                else if (!FirstPressed && IsPlaying)
+                {
+                    drawDuring();
                 }
             }
- 
+
             // button release and music playing
             else if (IsPlaying)
             {
@@ -102,7 +109,7 @@ public class drawController : MonoBehaviour
         if (rightHandDevices[0] != null && (rightHandDevices[0].TryGetFeatureValue(primary2DVector, out primary2DValue) && primary2DValue != Vector2.zero))
         {
             joyValue = primary2DValue;
-        } 
+        }
         return joyValue;
     }
 
@@ -117,20 +124,21 @@ public class drawController : MonoBehaviour
         trail.transform.position = transform.position;
         RecordManager.UpdateRecording(transform.position, transform.rotation, GetJoystickValue());
         //Debug.Log("the joystick value is" + GetJoystickValue());
-        //float track_volume = transform.position.y + .5f;
-        //Debug.Log(track_volume);
+        GameObject temp = GameObject.Find("Right Hand");
+        float track_volume = temp.transform.position.y + .5f;
+        Debug.Log(track_volume);
         //Debug.Log(transform.position);
-          //  if (track_volume > 1)
-            //{
-            //musicTrack.volume = 1;
-            //}
-            //else if (track_volume < 0){
-            //musicTrack.volume = 0;
-              //  }
-           // else{
-           // musicTrack.volume = track_volume;
-            // }
+        //  if (track_volume > 1)
+        //{
+        //musicTrack.volume = 1;
+        //}
+        //else if (track_volume < 0){
+        //musicTrack.volume = 0;
+        //  }
+        // else{
+        // musicTrack.volume = track_volume;
+        // }
 
-        
+
     }
 }
