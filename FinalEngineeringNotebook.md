@@ -42,7 +42,9 @@ Last accomplishments:
 We also met with Professor Intriligator's son to get a better understanding of the source code he implemented with his team.
 
 - Finally we were able to map the controller/user-controlled parameter to an audio parameter (volume). This was the basis of our Proof of Concept.
+(Notes are in the miro board)
 
 Plans going forward (i.e. over the break)
 - Weekly meetings starting January
 - Continue to code and work on implementing the integration of our big picture modules (Save/Load module, Playback Module, and Draw Module)
+
