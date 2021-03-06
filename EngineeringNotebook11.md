@@ -20,5 +20,5 @@ The big parts remaining to develop for our program are:
 * User Interface and Menus
 * Program launching/sound file storage 
 
-Within the team wwe are dividing to lead efforts on the development of these components but wee are hoping to continue meeting 2-3 
+Within the team we are dividing to lead efforts on the development of these components but wee are hoping to continue meeting 2-3 
 times each week throughout the semester so that as many features as possible can make it into the program.
