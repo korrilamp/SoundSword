@@ -11,6 +11,6 @@ can be easily updated with new values to further customize the words and visuals
 Each Dropdown menu object has a script component attached called the `X_UI_Scriptfinder`, `Y_UI_Scriptfinder`, and `Z_UI_Scriptfinder` accordingly. The main purpose of these scripts 
 is for the user's chosen audio effect (among the options in the dropdown) to enable the effect of the same name in the Audio Mixer. 
 
-###Interaction between the Canvas and the AudioMixer
+### Interaction between the Canvas and the AudioMixer
 Within the last function of each of the UI_Scriptfinder scripts is the code that accesses the `drawController` script, to call that script's functions. Namely, it calls the 
 functions `muteEffect`,`enableEffect`, and sets the value of the positional mapping, such as, `x_mapping`
