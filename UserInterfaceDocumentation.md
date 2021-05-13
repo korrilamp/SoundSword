@@ -1,4 +1,4 @@
-# Sound Sword User Interface
+# SoundSword User Interface
 Our method of implementing the interactive UI to choose which effects to map positional data values to.
 
 ## Main components & Unity building blocks
@@ -16,3 +16,7 @@ Within the last function of each of the UI_Scriptfinder scripts is the code that
 to call that script's functions. Namely, it calls the functions `muteEffect`,`enableEffect`, and sets the value of the positional mapping, such as, `x_mapping`
 
 ## User Interaction through Raycasting
+### Enabling Raycasting from Left-Controller 
+Note: Maybe just write up on the structure of components we had to add, preview packages we had to install, any values we had to set in the inspector etc
+### Additional Details
+Note: mention how to add the reticle as a extra sphere in the scene and other things like how it works 
